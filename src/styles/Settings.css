@@ -1,0 +1,51 @@
+.settings-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-2);
+  gap: 20px;
+  height: 50%;
+  margin: auto;
+  padding: 20px;
+  top: 50%;
+  transform: translateY(30%);
+  width: 600px;
+}
+
+.settings-text {
+  text-align: center;
+}
+
+.settings-container h1 {
+  font-size: 3rem;
+}
+
+.empty-icon {
+  width: 150px;
+}
+
+.back-icon {
+  width: 50px;
+}
+
+@media screen and ( max-width : 550px ) {
+
+  .settings-container {
+    width: 300px;
+  }
+
+  .settings-container h1 {
+    font-size: 2rem;
+  }
+
+  .settings-container h2 {
+    font-size: 1rem;
+  }
+
+  .settings-container h3 {
+    font-size: 0.8rem;
+  }
+}

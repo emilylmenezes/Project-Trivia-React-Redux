@@ -1,0 +1,92 @@
+.ranking-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-2);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ranking-container h1 {
+  background-color: var(--color-3);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 3rem;
+  padding: 10px;
+  text-align: center;
+  width: 240px;
+}
+
+.ranking-player {
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  width: 700px;
+}
+
+.ranking-player-avatar-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ranking-player-avatar-container img {
+  border-radius: 100%;
+  width: 50px;
+}
+
+.ranking-player * {
+  width: 30%;
+}
+
+.ranking-player-name {
+  font-size: 1.2rem;
+}
+
+.ranking-player-score {
+  color: var(--color-5);
+  font-family: var(--font-3);
+  font-size: 1.5rem;
+}
+
+.ranking-back-button {
+  background-color: var(--color-3);
+  color: white;
+  font-family: var(--font-2);
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.ranking-back-button:hover {
+  background-color: var(--color-5);
+}
+
+@media screen and ( max-width : 550px ) {
+
+  .ranking-player {
+    width: 325px;
+  }
+
+  .ranking-player-avatar-container img {
+    width: 30px;
+  }
+
+  .ranking-player-name {
+    font-size: 0.7rem;
+  }
+
+  .ranking-player-score {
+    font-size: 1.2rem;
+  }
+}

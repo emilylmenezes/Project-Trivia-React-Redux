@@ -1,0 +1,23 @@
+.external-loading {
+  align-items: center;
+  animation: rotate 0.5s linear infinite;
+  border: 5px solid transparent;
+  border-bottom-color: var(--color-3);
+  border-radius: 100%;
+  border-top-color: var(--color-3);
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  width: 70px;
+}
+
+.inner-loading {
+  color: var(--color-3);
+  font-family: var(--font-1);
+  font-size: 3rem;
+}
+
+@keyframes rotate {
+
+  to { transform: rotate(360deg); }
+}
