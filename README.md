@@ -1,4 +1,5 @@
-# Seja bem vindo(a) ao projeto Trivia
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Projeto+Trivia+:%29)](https://git.io/typing-svg)
+
 
 ![image](https://user-images.githubusercontent.com/84086374/185270456-3814cc13-2b86-4ccb-90a5-fd8fd1342a55.png)
 
@@ -9,7 +10,7 @@
 - [Thaisy Morais](https://www.linkedin.com/in/thaisy-morais-4924a415b/)
 - [Emily Menezes](https://www.linkedin.com/in/emilydemenezes/)
 
-# Ferramentar utilizadas:
+# Ferramentas utilizadas:
 
 - **REACT**
 - **REDUX**
